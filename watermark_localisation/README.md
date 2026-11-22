@@ -1,6 +1,3 @@
-# CISPA2
-Repository for the CISPA European AI Championship second edition on watermarking for Automateam2
-
 # Watermark localisation: team automateam2
 
 **Best submission: `submission_v19b_sam.pt`, public score 0.7324** (submission 4223). The expected CV on train was 0.7332.
