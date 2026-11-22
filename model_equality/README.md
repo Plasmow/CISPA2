@@ -5,7 +5,7 @@ construits sur le même modèle de base (famille) et lesquels servent exactement
 quantification, même LoRA). Un watermark, un system prompt, un persona ou un changement de décodage ne changent pas le modèle.
 Score = 0,1 × MCC « même famille » + 0,9 × MCC « même modèle » (paires d'une même famille). Budget : 100 réponses par endpoint.
 
-L'archive `model_equality_methode.zip` contient le code, les réponses collectées et les soumissions (voir « Fichiers »).
+Ce dossier contient le code, les réponses collectées et les soumissions (voir « Fichiers »).
 
 ## Résultat
 
@@ -92,7 +92,7 @@ chaque changement contre l'historique des scores publics :
 Limite principale : un LoRA faible du serveur, différent de nos adaptateurs, reste indétectable avec ~95 réponses
 (cas d'ep-18, isolé grâce au score public uniquement).
 
-## Fichiers de l'archive
+## Fichiers
 
 | Dossier / fichier | Rôle |
 |---|---|
